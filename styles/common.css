@@ -1,0 +1,22 @@
+:root {
+  font-size: 62.5%;
+  --dark-font-1: #131318;
+  --dark-font-2: #424247;
+  --orange-font-1: #ff5400;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-family: "Mulish", sans-serif;
+}
+body {
+  font-size: 1.6rem;
+  height: 100vh;
+}
+.orange-tx {
+  color: var(--orange-font-1);
+  font-weight: 700;
+}
