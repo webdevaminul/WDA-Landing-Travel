@@ -1,8 +1,10 @@
 :root {
   font-size: 62.5%;
-  --dark-font-1: #131318;
-  --dark-font-2: #424247;
-  --orange-font-1: #ff5400;
+  --white-1: #fff;
+  --dark-1: #131318;
+  --dark-2: #424247;
+  --dark-3: rgba(19, 19, 24, 0.5);
+  --orange-1: #ff5400;
 }
 * {
   margin: 0;
@@ -16,7 +18,42 @@ body {
   font-size: 1.6rem;
   height: 100vh;
 }
+main {
+  padding: 80px 20px 0 20px;
+}
+section {
+  max-width: 1170px;
+}
+.center-wht-paragraph {
+  color: var(--white-1);
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 5px 0;
+}
 .orange-tx {
-  color: var(--orange-font-1);
+  color: var(--orange-1);
   font-weight: 700;
+}
+
+/* Media Quries for Small Devices */
+
+@media (min-width: 576px) {
+}
+
+/* Media Quries for Medium Devices */
+
+@media (min-width: 768px) {
+}
+
+/* Media Quries for Large Devices */
+
+@media (min-width: 992px) {
+}
+
+/* Media Quries for Extra Large Devices */
+
+@media (min-width: 1200px) {
+  .center-wht-paragraph {
+    font-size: 1.8rem;
+  }
 }

@@ -1,5 +1,5 @@
 nav {
-  background-color: #fff;
+  background-color: var(--white-1);
   height: 64px;
   position: fixed;
   top: 0;
@@ -21,7 +21,7 @@ nav {
   height: 34px;
 }
 .nav-logo .company-name {
-  color: var(--dark-font-1);
+  color: var(--dark-1);
   font-size: 2.2rem;
   font-weight: 800;
 }
@@ -48,7 +48,7 @@ nav > ul li {
 }
 nav > ul li a {
   display: inline-block;
-  color: var(--dark-font-2);
+  color: var(--dark-2);
   width: 100%;
   text-align: center;
   font-size: 1.8rem;
@@ -94,7 +94,6 @@ nav > ul li a:active {
   }
   nav > ul li a {
     display: inline;
-    color: var(--dark-font-2);
     width: fit-content;
     text-align: center;
     font-size: 1.8rem;

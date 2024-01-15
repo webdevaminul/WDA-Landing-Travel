@@ -1,5 +1,107 @@
+/* Banner Styles */
+
 .banner-section {
-  width: 1170px;
-  height: 500px;
-  margin: 0 auto;
+  min-height: 483px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(../Images/bg/banner-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  margin: 0 auto 100px auto;
 }
+.banner-title {
+  color: var(--white-1);
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin: 5px 0;
+}
+.banner-description {
+  max-width: 676px;
+}
+.form-container {
+  padding: 5px 24px 24px;
+  width: 100%;
+}
+
+/* Form's Styles */
+
+.banner-form {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.banner-form input,
+select {
+  padding: 16px;
+  border-radius: 8px;
+  background: var(--white-1);
+  border: none;
+  color: var(--dark-3);
+}
+.banner-form input,
+select::placeholder {
+  color: var(--dark-3);
+  background: var(--white-1);
+}
+.search-btn {
+  padding: 16px;
+  border-radius: 8px;
+  border: 0;
+  color: var(--white-1);
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  background: var(--orange-1);
+}
+
+/* Media Quries for Small Devices */
+
+@media (min-width: 576px) {
+  .banner-title {
+    font-size: 4rem;
+  }
+  .banner-form {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .search-btn,
+  .banner-form input,
+  select {
+    width: 174px;
+  }
+}
+
+/* Media Quries for Medium Devices */
+
+@media (min-width: 768px) {
+  .banner-title {
+    font-size: 5.2rem;
+  }
+  .form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Media Quries for Large Devices */
+
+@media (min-width: 992px) {
+  .banner-title {
+    font-size: 6.4rem;
+  }
+}
+
+/* Media Quries for Extra Large Devices */
