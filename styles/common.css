@@ -23,6 +23,14 @@ main {
 }
 section {
   max-width: 1170px;
+  margin: 0 auto 50px auto;
+  border-radius: 16px;
+}
+
+.h2-side-title {
+  color: var(--dark-1);
+  font-size: 2rem;
+  font-weight: 800;
 }
 .center-wht-paragraph {
   color: var(--white-1);
@@ -30,9 +38,25 @@ section {
   font-size: 1.6rem;
   margin: 5px 0;
 }
+.black-paragraph {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1.6rem;
+  line-height: 24px;
+}
 .orange-tx {
   color: var(--orange-1);
   font-weight: 700;
+}
+
+.primary-btn {
+  border: none;
+  border-radius: 8px;
+  background: var(--orange-1);
+  color: var(--white-1);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 14px 34px;
 }
 
 /* Media Quries for Small Devices */
@@ -43,17 +67,31 @@ section {
 /* Media Quries for Medium Devices */
 
 @media (min-width: 768px) {
+  section {
+    margin: 0 auto 80px auto;
+  }
 }
 
 /* Media Quries for Large Devices */
 
 @media (min-width: 992px) {
+  .h2-side-title {
+    color: var(--dark-1);
+    font-size: 2.6rem;
+    font-weight: 800;
+  }
+  .black-paragraph {
+    font-size: 1.6rem;
+  }
 }
 
 /* Media Quries for Extra Large Devices */
 
 @media (min-width: 1200px) {
+  section {
+    margin: 0 auto 100px auto;
+  }
   .center-wht-paragraph {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 }

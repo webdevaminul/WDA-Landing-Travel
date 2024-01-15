@@ -1,0 +1,71 @@
+.popular-tour {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.popular-data {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.popular-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.popular-text ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  padding-left: 30px;
+}
+.popular-img img {
+  width: 100%;
+}
+
+/* Media Quries for Small Devices */
+
+@media (min-width: 576px) {
+}
+
+/* Media Quries for Medium Devices */
+
+@media (min-width: 768px) {
+}
+
+/* Media Quries for Large Devices */
+
+@media (min-width: 992px) {
+  .popular-data {
+    justify-content: space-between;
+  }
+  .popular-tour {
+    flex-direction: row;
+  }
+  .popular-data {
+    max-width: 50%;
+  }
+  .popular-img {
+    max-width: 50%;
+  }
+}
+
+/* Media Quries for Extra Large Devices */
+
+@media (min-width: 1200px) {
+  .popular-data {
+    justify-content: space-between;
+  }
+  .popular-tour {
+    gap: 32px;
+  }
+  .popular-data {
+    gap: 32px;
+  }
+  .popular-text {
+    gap: 24px;
+  }
+  .popular-text ul {
+    row-gap: 24px;
+  }
+}
