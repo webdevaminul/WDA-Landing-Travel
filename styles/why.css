@@ -18,7 +18,6 @@
   width: 48px;
 }
 .why-card1,
-.why-card2,
 .why-card3 {
   display: flex;
   flex-direction: column;
@@ -27,6 +26,17 @@
   border-radius: 16px;
   border: 1px solid rgba(251, 181, 99, 0.2);
   background: rgba(251, 181, 99, 0.05);
+  padding: 32px;
+  max-width: 573px;
+}
+.why-card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
   padding: 32px;
   max-width: 573px;
 }

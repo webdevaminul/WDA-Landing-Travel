@@ -1,0 +1,135 @@
+.deals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.deals-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.deals-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+.deal-card1,
+.deal-card3 {
+  background-image: url(../Images/bg/deals-card-bg1.png);
+}
+.deal-card1,
+.deal-card3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  border-radius: 16px;
+  height: 500px;
+  width: 100%;
+  padding: 20px;
+}
+.deal-card2 {
+  background-image: url(../Images/bg/deals-card-bg2.png);
+}
+.deal-card2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  border-radius: 16px;
+  height: 500px;
+  width: 100%;
+  padding: 20px;
+}
+
+.subcard {
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 16px;
+  border-radius: 16px;
+  max-width: 579px;
+  height: 389px;
+}
+.sub-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.sub-icon-data {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  color: var(--orange-1);
+}
+
+/* Media Quries for Small Devices */
+
+@media (min-width: 576px) {
+  .deal-card1,
+  .deal-card2,
+  .deal-card3 {
+    padding: 20px;
+  }
+}
+
+/* Media Quries for Medium Devices */
+
+@media (min-width: 768px) {
+  .deal-card2 {
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .deal-card1,
+  .deal-card3 {
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .subcard {
+    padding: 26px;
+  }
+}
+
+/* Media Quries for Large Devices */
+
+@media (min-width: 992px) {
+  .deal-card1,
+  .deal-card2,
+  .deal-card3 {
+    padding: 40px;
+  }
+  .deal-card2 {
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .deal-card1,
+  .deal-card3 {
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .subcard {
+    padding: 35px;
+  }
+}
+
+/* Media Quries for Extra Large Devices */
+
+@media (min-width: 1200px) {
+  .subcard {
+    padding: 40px;
+  }
+}
