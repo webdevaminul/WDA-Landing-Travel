@@ -32,22 +32,42 @@ section {
   font-size: 2rem;
   font-weight: 800;
 }
+.h2-middle-title {
+  color: var(--dark-1);
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+}
 .center-wht-paragraph {
   color: var(--white-1);
   text-align: center;
   font-size: 1.6rem;
   margin: 5px 0;
 }
+.center-blk-paragraph {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 26px;
+  margin: 5px 0;
+}
 .black-paragraph {
   color: rgba(19, 19, 24, 0.7);
   font-size: 1.6rem;
   line-height: 24px;
+  margin: 5px 0;
 }
 .orange-tx {
   color: var(--orange-1);
   font-weight: 700;
 }
 
+.place-name {
+  color: var(--white-1);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
 .primary-btn {
   border: none;
   border-radius: 8px;
@@ -75,13 +95,9 @@ section {
 /* Media Quries for Large Devices */
 
 @media (min-width: 992px) {
-  .h2-side-title {
-    color: var(--dark-1);
+  .h2-side-title,
+  .h2-middle-title {
     font-size: 2.6rem;
-    font-weight: 800;
-  }
-  .black-paragraph {
-    font-size: 1.6rem;
   }
 }
 
@@ -91,7 +107,9 @@ section {
   section {
     margin: 0 auto 100px auto;
   }
-  .center-wht-paragraph {
+  .black-paragraph,
+  .center-wht-paragraph,
+  .center-blk-paragraph {
     font-size: 1.7rem;
   }
 }
