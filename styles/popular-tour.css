@@ -23,6 +23,23 @@
   width: 100%;
 }
 
+.perfect-place > li {
+  color: var(--dark-1);
+  font-weight: 700;
+}
+
+.video-img {
+  background-image: url(../Images/bg/video-thumb.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 424px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Media Quries for Small Devices */
 
 @media (min-width: 576px) {

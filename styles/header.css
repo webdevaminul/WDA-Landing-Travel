@@ -1,11 +1,16 @@
-nav {
-  background-color: var(--white-1);
+header {
   height: 64px;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  padding: 0 4%;
+}
+nav {
+  background-color: var(--white-1);
+  height: 64px;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 2%;
 }
 
 /* Navbar's Logo Styles */
@@ -52,10 +57,11 @@ nav > ul li a {
   width: 100%;
   text-align: center;
   font-size: 1.8rem;
+  padding: 10px 15px;
 }
 nav > ul li a:hover,
 nav > ul li a:active {
-  background-color: #ff5400;
+  background-color: #a5a5a5;
 }
 .hambtn {
   font-size: 2.2rem;
@@ -77,10 +83,10 @@ nav > ul li a:active {
   nav > ul {
     position: static;
     background-color: transparent;
-    width: 506px;
+    width: fit-content;
     height: 64px;
     display: inline-flex;
-    gap: 44px;
+    gap: 20px;
     padding: 10px 0;
     justify-content: center;
     align-items: center;

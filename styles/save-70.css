@@ -1,0 +1,56 @@
+.save-70 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+}
+.newsletter {
+  grid-column: 1/-1;
+  height: 422px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 2px solid peru;
+  border-radius: 16px;
+  padding: 30px;
+}
+.save-img {
+  grid-column: 1/-1;
+  height: 422px;
+}
+.save-img img {
+  width: 100%;
+  height: 422px;
+}
+.newsletter input {
+  padding: 16px;
+  border-radius: 8px;
+  background: rgb(230, 230, 230);
+  border: none;
+  color: var(--dark-3);
+}
+
+/* Media Quries for Small Devices */
+
+@media (min-width: 576px) {
+}
+
+/* Media Quries for Medium Devices */
+
+@media (min-width: 768px) {
+  .newsletter {
+    grid-column: 1/5;
+  }
+  .save-img {
+    grid-column: 5/-1;
+  }
+}
+
+/* Media Quries for Large Devices */
+
+@media (min-width: 992px) {
+}
+
+/* Media Quries for Extra Large Devices */
+
+@media (min-width: 1200px) {
+}
