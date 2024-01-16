@@ -79,9 +79,14 @@ section {
   background: var(--orange-1);
   color: var(--white-1);
   text-align: center;
-  font-size: 2rem;
-  font-weight: 800;
-  padding: 14px 34px;
+  font-size: 1.9rem;
+  font-weight: 700;
+  padding: 12px 28px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.primary-btn:hover {
+  background-color: #424247;
 }
 
 /* Media Quries for Small Devices */
@@ -109,6 +114,11 @@ section {
   }
   .place-name {
     font-size: 2.8rem;
+  }
+  .primary-btn {
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 14px 30px;
   }
 }
 

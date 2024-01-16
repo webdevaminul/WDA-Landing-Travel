@@ -60,8 +60,12 @@ select::placeholder {
   font-size: 1.6rem;
   font-weight: 700;
   background: var(--orange-1);
+  cursor: pointer;
+  transition: 0.2s ease;
 }
-
+.search-btn:hover {
+  background-color: #424247;
+}
 /* Media Quries for Small Devices */
 
 @media (min-width: 576px) {
