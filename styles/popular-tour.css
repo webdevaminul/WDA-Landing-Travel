@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  height: 550px;
 }
 .popular-text {
   display: flex;
@@ -21,23 +22,7 @@
 }
 .popular-img img {
   width: 100%;
-}
-
-.perfect-place > li {
-  color: var(--dark-1);
-  font-weight: 700;
-}
-
-.video-img {
-  background-image: url(../Images/bg/video-thumb.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 424px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 550px;
 }
 
 /* Media Quries for Small Devices */
@@ -74,15 +59,15 @@
     justify-content: space-between;
   }
   .popular-tour {
-    gap: 32px;
+    gap: auto;
   }
   .popular-data {
-    gap: 32px;
+    gap: auto;
   }
   .popular-text {
-    gap: 24px;
+    gap: auto;
   }
   .popular-text ul {
-    row-gap: 24px;
+    row-gap: auto;
   }
 }
