@@ -23,12 +23,14 @@
     <link rel="stylesheet" href="styles/destination.css" />
     <link rel="stylesheet" href="styles/why.css" />
     <link rel="stylesheet" href="styles/deals.css" />
+    <link rel="stylesheet" href="styles/reviews.css" />
     <link rel="stylesheet" href="styles/perfect-place.css" />
     <link rel="stylesheet" href="styles/save-70.css" />
     <link rel="stylesheet" href="styles/footer.css" />
     <title>Travel Time</title>
   </head>
   <body>
+    <!-- Header Part  -->
     <header>
       <nav>
         <div class="nav-logo">
@@ -51,7 +53,9 @@
       </nav>
     </header>
 
+    <!-- Main Part  -->
     <main>
+      <!-- Banner Section  -->
       <section class="banner-section">
         <h1 class="banner-title">Explore Your Travel</h1>
         <p class="banner-description center-wht-paragraph">
@@ -59,9 +63,13 @@
           traveling to national parks, whether that&apos;s to see the sights or
           to check off another park from their bucket list.
         </p>
+
+        <!-- Banner Form Part  -->
         <div class="form-container">
           <form class="banner-form" action="">
             <input type="text" name="place" id="place" placeholder="Where go" />
+
+            <!-- When Go Input  -->
             <select name="time" id="time">
               <option value="">When</option>
               <option value="january">January</option>
@@ -77,6 +85,8 @@
               <option value="November">November</option>
               <option value="december">December</option>
             </select>
+
+            <!-- Where Go Input  -->
             <select name="type" id="type">
               <option value="">Type</option>
               <option value="forest">Forest</option>
@@ -84,6 +94,8 @@
               <option value="sea">Sea</option>
               <option value="adventure">Adventure</option>
             </select>
+
+            <!-- Search Button  -->
             <button class="search-btn" type="submit">
               <i class="fa-solid fa-magnifying-glass"></i> Search
             </button>
@@ -91,8 +103,10 @@
         </div>
       </section>
 
+      <!-- Popular Tour Section  -->
       <section class="popular-tour">
         <div class="popular-data">
+          <!-- Popular Section Text  -->
           <div class="popular-text">
             <h2 class="h2-side-title">Our Popular Tours</h2>
             <p class="black-paragraph">
@@ -121,15 +135,20 @@
               level.
             </p>
           </div>
+
+          <!-- Popular Section Button  -->
           <div class="btn-div">
             <button class="primary-btn" type="button">Read More</button>
           </div>
         </div>
+
+        <!-- Popular Section Image  -->
         <div class="popular-img">
           <img src="Images/objects/lava-mountain.png" alt="Mountain" />
         </div>
       </section>
 
+      <!-- Destination Section  -->
       <section class="destination">
         <div class="destination-text">
           <h2 class="h2-middle-title">Choose Your Destination</h2>
@@ -139,6 +158,8 @@
             passport.
           </p>
         </div>
+
+        <!-- Destination Images  -->
         <div class="destination-img">
           <div class="card c1">
             <h3 class="place-name">Maldives</h3>
@@ -164,6 +185,7 @@
         </div>
       </section>
 
+      <!-- Why Choose Us Section  -->
       <section class="why">
         <div class="why-text">
           <h2 class="h2-middle-title">Why Choose Us</h2>
@@ -174,6 +196,8 @@
             its outstanding service.
           </p>
         </div>
+
+        <!-- Why Choose Card 1 -->
         <div class="why-cards">
           <div class="why-card1">
             <img src="Images/icons/hotel 1.svg" alt="Hotel" />
@@ -184,6 +208,8 @@
               typically full-service and classified as luxury.
             </p>
           </div>
+
+          <!-- Why Choose Card 2 -->
           <div class="why-card2">
             <img src="Images/icons/map 1.svg" alt="Map" />
             <h3 class="h3-title">World Class Service</h3>
@@ -193,6 +219,8 @@
               include: on-site food and beverage.
             </p>
           </div>
+
+          <!-- Why Choose Card 3 -->
           <div class="why-card3">
             <img src="Images/icons/price-tag 1.svg" alt="Price-tag" />
             <h3 class="h3-title">Best Price Gaurantee</h3>
@@ -205,6 +233,83 @@
         </div>
       </section>
 
+      <!-- Reviews Section  -->
+      <section class="reviews">
+        <h2 class="h2-middle-title review-title">
+          Top Reviews for <span class="orange-tx">Travel</span> Time
+        </h2>
+
+        <!-- Review Card 1 -->
+        <div class="review-card1">
+          <img src="Images/user/user1.jpg" alt="user" />
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="center-blk-paragraph">
+            Great service when I had questions and a simple process. Very
+            professional, great communicator and helpful with any queries and
+            organisation. Very happy with Kristy and this company.
+          </p>
+        </div>
+
+        <!-- Review Card 2 -->
+        <div class="review-card2">
+          <img src="Images/user/user2.jpg" alt="user" />
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p class="center-blk-paragraph">
+            The travel on line made my expectation. It was very pleasant and
+            enjoyable holiday for us and our grandson. Everything was well
+            organised. Thanks for the opportunity to have an enjoyable holiday.
+          </p>
+        </div>
+
+        <!-- Review Card 3 -->
+        <div class="review-card3">
+          <img src="Images/user/user3.jpg" alt="user" />
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="center-blk-paragraph">
+            We were very happy with the package and service we received from
+            Travel Online. Communication on our flights and accommodation was
+            thorough. I would definately use them again for booking any travel.
+          </p>
+        </div>
+
+        <!-- Review Card  4 -->
+        <div class="review-card4">
+          <img src="Images/user/user4.jpg" alt="user" />
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="center-blk-paragraph">
+            Excellent and easy process. Best deal we found was through travel
+            online. Our flight was cancelled and travel online messaged and made
+            sure we were aware and made sure we were on the next available
+            flight.
+          </p>
+        </div>
+      </section>
+
+      <!-- Deals and Discounts Section  -->
       <section class="deals">
         <div class="deals-text">
           <h2 class="h2-middle-title">Deal and Discount</h2>
@@ -215,6 +320,7 @@
           </p>
         </div>
         <div class="deals-card-container">
+          <!-- Sajek Deals Card  -->
           <div class="deal-card1">
             <div class="subcard">
               <div class="sub-icons">
@@ -241,6 +347,8 @@
               <button class="primary-btn" type="button">Book Now</button>
             </div>
           </div>
+
+          <!-- Rangamati Deals Card  -->
           <div class="deal-card2">
             <div class="subcard">
               <div class="sub-icons">
@@ -267,6 +375,8 @@
               <button class="primary-btn" type="button">Book Now</button>
             </div>
           </div>
+
+          <!-- Cox,s Bazar Deals Card  -->
           <div class="deal-card3">
             <div class="subcard">
               <div class="sub-icons">
@@ -296,8 +406,10 @@
         <button class="primary-btn" type="button">See All Packages</button>
       </section>
 
+      <!-- Perfect Place Section  -->
       <section class="perfect-place">
         <div class="perfect-place-data">
+          <!-- Perfect Place Text  -->
           <div class="perfect-text">
             <h2 class="h2-side-title">A Simple Perfect Place To Get Lost</h2>
             <p class="black-paragraph">
@@ -319,10 +431,14 @@
               since this is RED Mountain, you are a stranger here but once.
             </p>
           </div>
+
+          <!-- Perfect Place Button  -->
           <div class="btn-div">
             <button class="primary-btn" type="button">See More</button>
           </div>
         </div>
+
+        <!-- Perfect Place Mountain Video -->
         <div class="video-div">
           <video src="Images/mountain-video.mp4" controls></video>
           <h3 class="perfect-place-name place-name">
@@ -331,7 +447,9 @@
         </div>
       </section>
 
+      <!-- Save Up to 70% Section  -->
       <section class="save-70">
+        <!-- Newsletter Form  -->
         <div class="newsletter">
           <h3 class="h3-title">Newsletter</h3>
           <p class="black-paragraph">
@@ -352,6 +470,8 @@
           />
           <button class="primary-btn" type="button">Subscribe</button>
         </div>
+
+        <!-- Save Up to 70% Image  -->
         <div class="save-img">
           <img src="Images/objects/save-img.png" alt="Mountain" />
           <div class="save-btn-div">
@@ -362,6 +482,7 @@
       </section>
     </main>
 
+    <!-- Footer Part  -->
     <footer>
       <div class="footer-container">
         <div class="nav-logo">
@@ -374,17 +495,29 @@
           Travel Time a trusted company somewhere you may find in the world.
           Enjoy your life by seeing the beauty of this earth with us.
         </p>
+
+        <!-- Social Links And Web -->
         <div class="social-links">
-          <a href="https://twitter.com/?lang=en" target="_blank">
+          <a
+            title="Twitter"
+            href="https://twitter.com/?lang=en"
+            target="_blank"
+          >
             <i class="fa-brands fa-twitter"></i>
           </a>
-          <a href="https://www.facebook.com/" target="_blank">
+
+          <a title="Facebook" href="https://www.facebook.com/" target="_blank">
             <i class="fa-brands fa-facebook-f"></i>
           </a>
-          <a href="https://www.instagram.com/" target="_blank">
+
+          <a
+            title="Instagram"
+            href="https://www.instagram.com/"
+            target="_blank"
+          >
             <i class="fa-brands fa-instagram"></i>
           </a>
-          <a href="https://github.com/" target="_blank">
+          <a title="Github" href="https://github.com/" target="_blank">
             <i class="fa-brands fa-github"></i>
           </a>
         </div>
