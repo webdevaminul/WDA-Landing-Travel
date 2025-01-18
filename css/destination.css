@@ -26,31 +26,31 @@
 }
 .c1 {
   grid-column: 1 / -1;
-  background-image: url(../Images/objects/maldives.png);
+  background-image: url(../assets/objects/maldives.png);
 }
 .c2 {
   grid-column: 1 / -1;
-  background-image: url(../Images/objects/indonesia.png);
+  background-image: url(../assets/objects/indonesia.png);
 }
 .c3 {
   grid-column: 1 / -1;
-  background-image: url(../Images/objects/srilanka.png);
+  background-image: url(../assets/objects/srilanka.png);
 }
 .c4 {
   grid-column: 1 / -1;
-  background-image: url(../Images/objects/north-america.png);
+  background-image: url(../assets/objects/north-america.png);
 }
 .c5 {
   grid-column: 1 / -1;
-  background-image: url(../Images/objects/Kashmir.png);
+  background-image: url(../assets/objects/Kashmir.png);
 }
 .c6 {
   grid-column: 1 / -1;
-  background-image: url(../Images/objects/bangladesh.png);
+  background-image: url(../assets/objects/bangladesh.png);
 }
 .c7 {
   grid-column: 1 / -1;
-  background-image: url(../Images/objects/bandarban.png);
+  background-image: url(../assets/objects/bandarban.png);
 }
 
 /* Media Quries for Small Devices */

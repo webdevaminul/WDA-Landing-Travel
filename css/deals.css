@@ -22,7 +22,7 @@
 }
 .deal-card1,
 .deal-card3 {
-  background-image: url(../Images/bg/deals-card-bg1.png);
+  background-image: url(../assets/bg/deals-card-bg1.png);
 }
 .deal-card1,
 .deal-card3 {
@@ -38,7 +38,7 @@
   padding: 20px;
 }
 .deal-card2 {
-  background-image: url(../Images/bg/deals-card-bg2.png);
+  background-image: url(../assets/bg/deals-card-bg2.png);
 }
 .deal-card2 {
   background-position: center;
