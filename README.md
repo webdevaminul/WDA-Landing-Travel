@@ -1,8 +1,8 @@
-# [WDA-Travel-Time](https://wda-travel-time.vercel.app)
+# [WDA-Landing-Travel](https://wda-landing-travel.vercel.app)
 
 ## Demo
 
-![WDA-Travel-Time-Demo](/assets/demo-img.png)
+![WDA-Landing-Travel-Demo](/assets/demo-img.png)
 
 ## Overview
 
@@ -25,13 +25,13 @@ To run this project locally, follow these steps:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/webdevaminul/WDA-Travel-Time.git
+   git clone https://github.com/webdevaminul/WDA-Landing-Travel.git
    ```
 
 2. **Navigate to the Project Directory**:
 
    ```bash
-   cd WDA-Travel-Time
+   cd WDA-Landing-Travel
    ```
 
 3. **Open the project with Visual Studio Code (recommended)**:
